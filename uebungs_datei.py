@@ -7,5 +7,11 @@ import random
 auswahl = input('Wähle Stein, Schere oder Papier: ')
 print('Du hast', auswahl, 'gewählt!')
 
-zufallszahl = random.randint(1, 3)
-print('Ich habe zufällig', zufallszahl, 'gewählt!')
+# 0=Stein / 1=Schere / 2=Papier
+zufallszahl = random.randint(0, 2)
+if (zufallszahl == 0):
+  print('Ich habe zufällig Stein gewählt!')
+elif (zufallszahl == 1):
+  print('Ich habe zufällig Schere gewählt!')
+else:
+  print('Ich habe zufällig Papier gewählt!')
