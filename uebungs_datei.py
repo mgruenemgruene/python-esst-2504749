@@ -15,3 +15,8 @@ elif (zufallszahl == 1):
   print('Ich habe zufällig Schere gewählt!')
 else:
   print('Ich habe zufällig Papier gewählt!')
+
+# Gewinnermittlung
+if (auswahl == Stein) and (zufallszahl == 0):
+  print('Unentschieden!') # Stein gegen Stein
+  
